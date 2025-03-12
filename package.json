@@ -26,6 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "@mjt-engine/assert": "github:mjt-engine/assert",
+    "@mjt-engine/byte": "github:mjt-engine/byte",
     "@mjt-engine/message": "github:mjt-engine/message",
     "@mjt-engine/object": "github:mjt-engine/object",
     "@mjt-engine/parse": "github:mjt-engine/parse",
