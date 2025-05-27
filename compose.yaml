@@ -1,0 +1,14 @@
+services:
+  imagegen:
+    image: ${IMAGE_TAG}
+    container_name: ${CONTAINER_NAME}
+    restart: unless-stopped
+    env_file:
+      - ./.env
+      - ./../.env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+
