@@ -9,6 +9,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    develop:
+      watch:
+        - path: .
+          action: rebuild
     stdin_open: true
     tty: true
 
