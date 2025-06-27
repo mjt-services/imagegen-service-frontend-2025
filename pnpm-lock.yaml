@@ -31,7 +31,7 @@ importers:
         version: https://codeload.github.com/mjt-services/data-common-2025/tar.gz/3e2c9315614711a71c5413c9e23c16dcde2b8a35(nats.ws@1.30.1)
       '@mjt-services/imagegen-common-2025':
         specifier: github:mjt-services/imagegen-common-2025
-        version: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/a469e77cc7bf1c4d66ce45c61347d3d08e1d1b0c
+        version: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb
     devDependencies:
       '@types/node':
         specifier: ^22.15.33
@@ -231,9 +231,9 @@ packages:
     resolution: {tarball: https://codeload.github.com/mjt-services/data-common-2025/tar.gz/3e2c9315614711a71c5413c9e23c16dcde2b8a35}
     version: 2025.3.28-1448
 
-  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/a469e77cc7bf1c4d66ce45c61347d3d08e1d1b0c':
-    resolution: {tarball: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/a469e77cc7bf1c4d66ce45c61347d3d08e1d1b0c}
-    version: 2025.6.26-1230
+  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb':
+    resolution: {tarball: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb}
+    version: 2025.6.27-1142
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3':
     resolution: {integrity: sha512-QZHtlVgbAdy2zAqNA9Gu1UpIuI8Xvsd1v8ic6B2pZmeFnFcMWiPLfWXh7TVw4eGEZ/C9TH281KwhVoeQUKbyjw==}
@@ -586,7 +586,7 @@ snapshots:
     transitivePeerDependencies:
       - nats.ws
 
-  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/a469e77cc7bf1c4d66ce45c61347d3d08e1d1b0c':
+  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb':
     dependencies:
       '@mjt-engine/object': https://codeload.github.com/mjt-engine/object/tar.gz/6e096ec8b073cde78d595c55740e44f8812e7428
 
