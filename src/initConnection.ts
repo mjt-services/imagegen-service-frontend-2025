@@ -11,6 +11,8 @@ import { imagegenGetModulesListener } from "./listener/imagegenGetModules";
 import { imagegenGetSamplersListener } from "./listener/imagegenGetSamplers";
 import { imagegenGetSchedulersListener } from "./listener/imagegenGetSchedulers";
 import { imagegenTxt2ImgListener } from "./listener/imagegenTxt2ImgListener";
+import { imagegenGetOptionsListener } from "./listener/imagegenGetOptions";
+import { imagegenSetOptionsListener } from "./listener/imagegenSetOptions";
 
 export const initConnection = async () => {
   const env = getEnv();
@@ -28,6 +30,8 @@ export const initConnection = async () => {
       "imagegen.getModules": imagegenGetModulesListener,
       "imagegen.getSchedulers": imagegenGetSchedulersListener,
       "imagegen.getSamplers": imagegenGetSamplersListener,
+      "imagegen.getOptions": imagegenGetOptionsListener,
+      "imagegen.setOptions": imagegenSetOptionsListener,
     },
     options: { log: console.log },
     server: [url],
