@@ -31,11 +31,11 @@ importers:
         version: https://codeload.github.com/mjt-services/data-common-2025/tar.gz/3e2c9315614711a71c5413c9e23c16dcde2b8a35(nats.ws@1.30.1)
       '@mjt-services/imagegen-common-2025':
         specifier: github:mjt-services/imagegen-common-2025
-        version: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb
+        version: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/e96c8325e86748096c81cde39a98ce5a4cee2a5c
     devDependencies:
       '@types/node':
-        specifier: ^22.15.33
-        version: 22.15.33
+        specifier: ^22.15.34
+        version: 22.15.34
       tsx:
         specifier: ^4.20.3
         version: 4.20.3
@@ -231,9 +231,9 @@ packages:
     resolution: {tarball: https://codeload.github.com/mjt-services/data-common-2025/tar.gz/3e2c9315614711a71c5413c9e23c16dcde2b8a35}
     version: 2025.3.28-1448
 
-  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb':
-    resolution: {tarball: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb}
-    version: 2025.6.27-1142
+  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/e96c8325e86748096c81cde39a98ce5a4cee2a5c':
+    resolution: {tarball: https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/e96c8325e86748096c81cde39a98ce5a4cee2a5c}
+    version: 2025.6.28-1340
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3':
     resolution: {integrity: sha512-QZHtlVgbAdy2zAqNA9Gu1UpIuI8Xvsd1v8ic6B2pZmeFnFcMWiPLfWXh7TVw4eGEZ/C9TH281KwhVoeQUKbyjw==}
@@ -280,8 +280,8 @@ packages:
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
-  '@types/node@22.15.33':
-    resolution: {integrity: sha512-wzoocdnnpSxZ+6CjW4ADCK1jVmd1S/J3ArNWfn8FDDQtRm8dkDg7TA+mvek2wNrfCgwuZxqEOiB9B1XCJ6+dbw==}
+  '@types/node@22.15.34':
+    resolution: {integrity: sha512-8Y6E5WUupYy1Dd0II32BsWAx5MWdcnRd8L84Oys3veg1YrYtNtzgO4CFhiBg6MDSjk7Ay36HYOnU7/tuOzIzcw==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -586,7 +586,7 @@ snapshots:
     transitivePeerDependencies:
       - nats.ws
 
-  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/8f8c9b4ff180a7646fbbc31eadc33c129cb983cb':
+  '@mjt-services/imagegen-common-2025@https://codeload.github.com/mjt-services/imagegen-common-2025/tar.gz/e96c8325e86748096c81cde39a98ce5a4cee2a5c':
     dependencies:
       '@mjt-engine/object': https://codeload.github.com/mjt-engine/object/tar.gz/6e096ec8b073cde78d595c55740e44f8812e7428
 
@@ -626,7 +626,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.15.33':
+  '@types/node@22.15.34':
     dependencies:
       undici-types: 6.21.0
 

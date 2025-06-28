@@ -7,6 +7,9 @@ import type { ImagegenConnectionMap } from "@mjt-services/imagegen-common-2025";
 import { getEnv } from "./getEnv";
 import { imagegenGetLorasListener } from "./listener/imagegenGetLoras";
 import { imagegenGetModelsListener } from "./listener/imagegenGetModels";
+import { imagegenGetModulesListener } from "./listener/imagegenGetModules";
+import { imagegenGetSamplersListener } from "./listener/imagegenGetSamplers";
+import { imagegenGetSchedulersListener } from "./listener/imagegenGetSchedulers";
 import { imagegenTxt2ImgListener } from "./listener/imagegenTxt2ImgListener";
 
 export const initConnection = async () => {
@@ -21,7 +24,10 @@ export const initConnection = async () => {
     subscribers: {
       "imagegen.txt2img": imagegenTxt2ImgListener,
       "imagegen.getLoras": imagegenGetLorasListener,
-      "imagegen.getModels": imagegenGetModelsListener, // Assuming this is the same as getLoras
+      "imagegen.getModels": imagegenGetModelsListener,
+      "imagegen.getModules": imagegenGetModulesListener,
+      "imagegen.getSchedulers": imagegenGetSchedulersListener,
+      "imagegen.getSamplers": imagegenGetSamplersListener,
     },
     options: { log: console.log },
     server: [url],
